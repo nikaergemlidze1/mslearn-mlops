@@ -13,7 +13,7 @@ def parse_args():
     parser.add_argument("--subscription-id", dest="subscription_id", required=True)
     parser.add_argument("--resource-group", dest="resource_group", required=True)
     parser.add_argument("--workspace", dest="workspace", required=True)
-    parser.add_argument("--endpoint-name", dest="endpoint_name", default="diabetes-endpoint-unique-2026")
+    parser.add_argument("--endpoint-name", dest="endpoint_name", default="diabetes-endpoint-nika-2026-v1")
     parser.add_argument("--deployment-name", dest="deployment_name", default="blue")
 
     return parser.parse_args()
