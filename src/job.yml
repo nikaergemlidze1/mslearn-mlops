@@ -10,7 +10,7 @@ inputs:
     path: azureml:diabetes-dev-folder@latest
   reg_rate: 0.01
 environment: azureml:AzureML-sklearn-1.5@latest
-compute: azureml:aml-cluster
+compute: azureml:aml-cluster-east
 experiment_name: diabetes-training
 display_name: diabetes-train-command
 description: diabetes training job
